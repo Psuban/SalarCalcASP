@@ -13,5 +13,21 @@ namespace SalaryCalcASP
         {
 
         }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void calcButton_Click(object sender, EventArgs e)
+        {
+            string salaryInput = salaryInputTextBox.Text;
+
+            if (DropDownList1.Text == "Yearly")
+            {
+               
+                                
+            }
+        }
     }
 }
