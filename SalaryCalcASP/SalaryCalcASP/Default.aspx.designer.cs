@@ -49,21 +49,39 @@ namespace SalaryCalcASP {
         protected global::System.Web.UI.WebControls.Button calcButton;
         
         /// <summary>
-        /// perAnnumResultLabel control.
+        /// resultBeforeDeductionsLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label perAnnumResultLabel;
+        protected global::System.Web.UI.WebControls.Label resultBeforeDeductionsLabel;
         
         /// <summary>
-        /// perMonthResultLabel control.
+        /// yesButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label perMonthResultLabel;
+        protected global::System.Web.UI.WebControls.Button yesButton;
+        
+        /// <summary>
+        /// noButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button noButton;
+        
+        /// <summary>
+        /// breakdownLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label breakdownLabel;
     }
 }

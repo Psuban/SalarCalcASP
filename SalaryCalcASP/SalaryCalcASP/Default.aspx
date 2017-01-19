@@ -19,18 +19,27 @@
     
     </div>
         <p>
-            How do you earn in the duration you mentioned above&nbsp;&nbsp;
-            <asp:TextBox ID="salaryInputTextBox" runat="server"></asp:TextBox>
+            How much do you earn in the duration you mentioned above&nbsp;&nbsp;
+            <asp:TextBox ID="salaryInputTextBox" runat="server" OnTextChanged="salaryInputTextBox_TextChanged"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="calcButton" runat="server" OnClick="calcButton_Click" Text="Click Me" />
+            To find out how much you earn per year before any deductions&nbsp; <asp:Button ID="calcButton" runat="server" OnClick="calcButton_Click" Text="Click Me" style="height: 26px" />
+        &nbsp;
+            <asp:Label ID="resultBeforeDeductionsLabel" runat="server"></asp:Label>
         </p>
         <p>
-            This is how much you earn after Tax and NI per year:&nbsp;
-            <asp:Label ID="perAnnumResultLabel" runat="server"></asp:Label>
-&nbsp; per month:
-            <asp:Label ID="perMonthResultLabel" runat="server"></asp:Label>
+            Would you like a to know how much tax and NI you will have to pay?&nbsp;
+            <asp:Button ID="yesButton" runat="server" OnClick="Button1_Click" style="height: 26px" Text="Yes" Width="30px" />
+&nbsp;
+            <asp:Button ID="noButton" runat="server" OnClick="noButton_Click" Text="No" Width="30px" />
         </p>
+        <p>
+            <asp:Label ID="breakdownLabel" runat="server"></asp:Label>
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
