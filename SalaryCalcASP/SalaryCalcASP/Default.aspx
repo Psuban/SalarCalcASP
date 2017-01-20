@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body>
+<body background ="background.png">
     <form id="form1" runat="server">
         <h1 style="text-align: center">
             Welcome to Suban&#39;s Salary Breakdown tool</h1>
@@ -41,7 +41,7 @@
         </p>
         <p class="auto-style1">
             4.
-            Would you like a to know how much tax and NI you will have to pay?&nbsp;
+            Would you like to know how much tax and NI you will have to pay?&nbsp;
             <asp:Button ID="yesButton" runat="server" OnClick="Button1_Click" style="height: 26px" Text="Yes" Width="30px" />
 &nbsp;
             <asp:Button ID="noButton" runat="server" OnClick="noButton_Click" Text="No" Width="30px" />
